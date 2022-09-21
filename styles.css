@@ -1,12 +1,18 @@
 h1 {
     background-color: red;
+    text-indent: -5px;
+    letter-spacing: inherit;
+    border: #fb300d 5px solid;
+    border-radius: 10px;
 }
 #division {
     color: #9009c5;
     text-align: centre;
     text-decoration: underline;
     text-transform: uppercase;
+    font-variant: small-caps;
     text-shadow: 10px 10px brown;
+    color: #FF7C7C
 }
    
     .one {
@@ -17,4 +23,57 @@ h1 {
     }
     .sweet {
         background-color: yellow;
+    }
+    p{
+        font-size: large;
+    }
+    .image-1{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+    .image-2{
+        width: 400px
+        height: 400px;
+        border-radius: 50%;
+        margin-left: 50px;
+    }
+    .image-3{
+        width: 400px
+        height: 400px;
+        border-radius: 50%;
+        margin-left: 50px;
+    p{
+        line-height: normal;
+        word-spacing: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Lobster', cursive;
+font-family: 'Ms Madi', cursive;
+font-weight: bold;
+    }
+    /* Styling Links */
+    a.link{
+        text-decoration: none;
+    }
+    a.visited{
+        color: rgba(230, 103, 7, 0.751)
+    }
+    /* Styling Tables */
+    table{
+        width: 100%;
+        border-collapse: separate;
+    }
+    table, th, td{
+        border: 1px solid red;
+    }
+    th{
+        text-align: center;
+        height: 50px;
+    }
+    tbody tr:nth-child(odd) {
+        background-color: rgb(229, 255, 0);
+    }
+    tbody tr:nth-child(even) {
+        background-color: chocolate;
     }
